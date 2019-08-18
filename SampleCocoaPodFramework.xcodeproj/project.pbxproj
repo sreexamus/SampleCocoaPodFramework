@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		78E6A4D82309FA87008D547B /* SampleCocoaPodFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E6A4D62309FA87008D547B /* SampleCocoaPodFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E6A4DF2309FA98008D547B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 78E6A4DE2309FA98008D547B /* LICENSE */; };
+		78E6A4E12309FAA5008D547B /* HelpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6A4E02309FAA5008D547B /* HelpInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78E6A4D32309FA87008D547B /* SampleCocoaPodFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleCocoaPodFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E6A4D62309FA87008D547B /* SampleCocoaPodFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleCocoaPodFramework.h; sourceTree = "<group>"; };
 		78E6A4D72309FA87008D547B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E6A4DE2309FA98008D547B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		78E6A4E02309FAA5008D547B /* HelpInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		78E6A4D52309FA87008D547B /* SampleCocoaPodFramework */ = {
 			isa = PBXGroup;
 			children = (
+				78E6A4DE2309FA98008D547B /* LICENSE */,
+				78E6A4E02309FAA5008D547B /* HelpInfo.swift */,
 				78E6A4D62309FA87008D547B /* SampleCocoaPodFramework.h */,
 				78E6A4D72309FA87008D547B /* Info.plist */,
 			);
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					78E6A4D22309FA87008D547B = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -120,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E6A4DF2309FA98008D547B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E6A4E12309FAA5008D547B /* HelpInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 		78E6A4DC2309FA87008D547B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.framework.SampleCocoaPodFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +297,7 @@
 		78E6A4DD2309FA87008D547B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
