@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import MarqueeLabel
 
 public class HelpInfo {
     static func getInfo() -> String {

@@ -1,0 +1,16 @@
+PODS:
+  - MarqueeLabel (4.0.0)
+
+DEPENDENCIES:
+  - MarqueeLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MarqueeLabel
+
+SPEC CHECKSUMS:
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
+
+PODFILE CHECKSUM: 8c93dc48ffa7484df9548b8a1c62e8a03503ff54
+
+COCOAPODS: 1.7.5
